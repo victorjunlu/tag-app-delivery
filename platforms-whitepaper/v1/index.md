@@ -6,7 +6,7 @@ description: "This paper intends to support enterprise leaders, enterprise archi
 本文旨在支持企业领袖、企业架构师和平台团队领导者倡导、调查和规划云计算内部平台。我们认为平台对企业的实际价值流有重大影响，但只是间接的，因此领导层的共识和支持对平台团队的长期可持续性和成功至关重要。在本文中，我们将通过讨论平台的价值、如何衡量它以及如何实施最大化平台价值的平台团队来实现这种支持。"
 ---
 
-## Introduction
+## 简介
 
 Inspired by the cross-functional cooperation promised by DevOps, platform 
 engineering has begun to emerge in enterprises as an explicit form of that 
@@ -17,6 +17,8 @@ in cloud computing, platforms have helped enterprises realize values long
 promised by the cloud like fast product releases, portability across 
 infrastructures, more secure and resilient products, and greater developer 
 productivity.
+受DevOps承诺的跨职能协作的启发，平台工程开始作为一种明确的合作形式在企业中出现。平台会策划和呈现基础能力、框架和体验，以便于和加速内部客户（如应用程序开发人员、数据科学家和信息工作者）的工作。特别是在云计算领域，平台已经帮助企业实现了云计算长期承诺的价值，如快速产品发布、跨基础设施的可移植性、更安全和更具弹性的产品以及更高的开发人员生产率。
+
 
 This paper intends to support enterprise leaders, enterprise architects and 
 platform team leaders to advocate for, investigate and plan internal platforms 
