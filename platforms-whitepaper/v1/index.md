@@ -134,16 +134,18 @@ systems, task runners and reconcilers and more. An internal platform provides
 these to enterprise teams in ways that make them easy to integrate in their
 applications and systems.
 
-### Platform maturity
+### Platform maturity 平台成熟度
 
 At their most basic, internal platforms provide consistent experiences for
 acquiring and using individual services such as a pipeline runner, a database
 system or a secret store. As they mature internal platforms also offer
 _compositions_ of such services as self-serviceable templates for key scenarios
 like web application development or data analysis, aka MLOps.
+基本上，内部平台提供了一致的体验，以获取和使用各种单独的服务，如流水线运行器、数据库系统或秘密存储。随着内部平台的成熟，它们还提供了这些服务的组合，例如面向Web应用程序开发或数据分析等关键场景的自助式模板，即MLOps。
 
 Use cases an enterprise could meet with platforms might progress through the
 following:
+企业通过平台可以实现的用例可能逐步发展如下：
 
 1. Product developers can provision capabilities on demand and immediately use
    them to run systems, such as compute, storage, databases or identities.
@@ -158,10 +160,16 @@ following:
 1. Product developers and managers can observe functionality, performance, and
    cost of deployed services through automatic instrumentation and standard
    dashboards.
+- 产品开发人员可以按需提供和立即使用计算、存储、数据库或身份验证等系统所需的功能。
+- 产品开发人员可以按需提供服务空间，并将其用于运行流水线和任务、存储工件和配置，并/或收集遥测数据。
+- 第三方软件的管理员可以按需提供所需的依赖项（如数据库），并轻松安装和运行该软件。
+- 产品开发人员可以根据模板提供完整的环境，将运行时和开发时所需的服务组合在一起，以满足特定场景的需求，例如Web开发或MLOps。
+- 产品开发人员和管理人员可以通过自动化的仪表板和标准化的监控来观察部署服务的功能、性能和成本。
 
 By offering consistent, compliant experiences for individual capabilities or
 sets of them, internal platforms ultimately make it easier and more efficient
 for their users to deliver valuable products.
+通过为单个能力或多个能力集提供一致和符合规定的体验，内部平台最终使其用户更轻松、更有效地交付有价值的产品。
 
 ## Attributes of platforms
 
