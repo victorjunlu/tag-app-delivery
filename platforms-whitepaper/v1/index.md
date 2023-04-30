@@ -317,7 +317,7 @@ the platform team include the following:
 1. Ensure platform teams are staffed appropriately for their domain and number
    of customers
 
-## How to measure the success of platforms
+## How to measure the success of platforms 如何衡量平台的成功
 
 Enterprises will want to measure whether their platform initiatives are
 delivering the values and attributes discussed above. Also, throughout this paper we've
@@ -325,6 +325,8 @@ emphasized the importance of treating internal platforms as products, and good
 product management depends on quantitative and qualitative measurement of a
 product's performance. To meet these requirements, internal platform teams
 should continuously gather user feedback and measure user activities.
+企业希望衡量他们的平台计划是否提供了上述的价值和特性。此外，在本文中，我们强调将内部平台视为产品的重要性，而良好的产品管理取决于对产品性能的定量和定性衡量。为了满足这些要求，内部平台团队应持续收集用户反馈并测量用户活动。
+
 
 As with other aspects of internal platforms, though, platform teams should use
 the smallest viable effort to gather the feedback they need. We'll suggest
