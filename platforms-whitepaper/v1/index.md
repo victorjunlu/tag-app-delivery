@@ -327,56 +327,71 @@ product's performance. To meet these requirements, internal platform teams
 should continuously gather user feedback and measure user activities.
 企业希望衡量他们的平台计划是否提供了上述的价值和特性。此外，在本文中，我们强调将内部平台视为产品的重要性，而良好的产品管理取决于对产品性能的定量和定性衡量。为了满足这些要求，内部平台团队应持续收集用户反馈并测量用户活动。
 
-
 As with other aspects of internal platforms, though, platform teams should use
 the smallest viable effort to gather the feedback they need. We'll suggest
 metrics here but simple surveys and analysis of user behavior may be most
 valuable initially.
+然而，与内部平台的其他方面一样，平台团队应使用最小可行的努力来收集他们所需的反馈。我们将在这里提出指标，但最初简单的调查和用户行为分析可能是最有价值的。
 
 Categories of metrics that will help enterprises and platform teams understand
 the impact of their platforms include the following:
+有助于企业和平台团队了解他们平台影响的度量指标包括以下几类：
 
-### User satisfaction and productivity
+### User satisfaction and productivity 用户满意度和生产率
 
 The first quality sought by many platforms is to improve user experience in order
 to increase productivity. Metrics that reflect user satisfaction and
 productivity include the following:
+许多平台所追求的第一个质量是改善用户体验，以提高生产力。反映用户满意度和生产率的指标包括以下内容：
 
 - Active users and retention: includes number of capabilities provisioned and user growth/churn
 - "Net Promoter Score" (NPS) or other surveys that measure user satisfaction with a product
 - Metrics for developer productivity such as those discussed in the SPACE framework [[4]]
+- 活跃用户和保留率：包括提供的能力数量和用户增长/流失率
+- "净推荐值"（NPS）或其他调查，用于衡量用户对产品的满意度
+- 开发人员生产力的指标，例如SPACE框架中讨论的指标[[4]]
 
-### Organizational efficiency
+### Organizational efficiency 组织效率
 
 Another benefit sought from many platforms is to efficiently provide common
 needs to a large user base. This is often achieved by enabling user self-service
 and reducing manual steps and required human intervention while implementing
 policies to guarantee safety and compliance. To measure the efficiency of a
 platform in reducing common work, consider measures such as these:
+许多平台所追求的另一个好处是有效地为大量用户提供通用需求。通常通过启用用户自助服务并减少手动步骤和所需的人工干预来实现，同时实施政策以保证安全性和合规性。为了衡量平台在减少常见工作方面的效率，可以考虑以下指标：
 
 - Latency from request to fulfillment of a service or capability, such as a database or test environment
 - Latency to build and deploy a brand new service into production
 - Time for a new user to submit their first code changes to their product
+- 请求到服务或功能实现的延迟时间，例如数据库或测试环境
+- 将全新服务构建并部署到生产环境的延迟时间
+- 新用户提交第一次代码更改到其产品的时间
 
-### Product and feature delivery
+### Product and feature delivery 产品和功能交付
 
 The ultimate objective of internal platforms is to deliver business value to
 customers faster, so measuring impact on a business's own product and feature
 releases demonstrates that the objectives of the platform are being met. The
 DevOps Research and Assessment (DORA) institute at Google suggests [[5]]
 tracking the following metrics:
+内部平台的最终目标是更快地向客户交付业务价值，因此测量对企业自己的产品和功能发布的影响可以证明平台的目标正在得到实现。谷歌的DevOps研究和评估（DORA）研究所建议跟踪以下指标：
 
 - Deployment frequency
 - Lead time for changes
 - Time to restore services after failure
 - Change failure rate
+- 部署频率
+- 变更的交付时间
+- 失败后恢复服务的时间
+- 变更失败率
 
 Generally, a key objective of platform teams is to align infrastructure and
 other IT capabilities with an enterprise's value streams - its products. And so
 ultimately the success of an organization's products and applications are the
 true measure of the success of a platform.
+一般来说，平台团队的一个关键目标是将基础设施和其他IT能力与企业的价值流（即产品）相对齐，因此最终组织的产品和应用程序的成功才是衡量平台成功的真正标准。
 
-## Capabilities of platforms
+## Capabilities of platforms 平台的能力
 
 As we've described, a platform for cloud-native computing offers and composes
 capabilities and services from many supporting providers. These providers may be
@@ -386,6 +401,7 @@ providers_ to platform users like application developers; and in the process
 implement and enforce desired practices for security, performance, cost
 governance and consistent experience. The following graphic illustrates the
 relationships between products, platforms, and capability providers.
+正如我们所描述的，云原生计算平台为许多支持提供者的能力和服务提供了提供和组合的功能。这些提供者可能是同一企业内的其他团队，也可能是云服务提供商等第三方。简而言之，平台从底层的_能力提供者_到应用程序开发人员等平台用户之间架起了桥梁，在此过程中实施和执行所需的安全、性能、成本治理和一致的体验。以下图形说明了产品、平台和能力提供者之间的关系。
 
 <img src="assets/platform_components.png" width=600px />
 
@@ -396,6 +412,7 @@ capabilities typically required by cloud-native applications. As we've noted
 throughout though, a good platform reflects its users' needs, so ultimately
 platform teams should choose and prioritize the capabilities their platform
 offers together with its users.
+本文中，我们专注于如何构建一个好的平台和平台团队；在这最后一部分中，我们将描述一个平台可能提供的能力。此清单旨在指导平台构建者，包括云原生应用程序通常需要的能力。然而，正如我们一直强调的那样，一个好的平台应反映其用户的需求，因此最终平台团队应该与其用户一起选择和优先考虑平台所提供的能力。
 
 Capabilities may comprise several _features_, meaning aspects or attributes of
 the parent capability's domain. For example, observability may include features
@@ -403,9 +420,11 @@ for gathering and publishing metrics, traces and logs as well as for observing
 costs and energy consumption. Consider the need and priority for each feature or
 aspect in your organization. Later CNCF publications may expand on each
 domain further.
+能力可能包括几个特性，即父能力领域的方面或属性。例如，可观察性可以包括用于收集和发布度量、跟踪和日志以及观察成本和能耗的特性。考虑组织中每个特性或方面的需求和优先级。以后的CNCF出版物可能会进一步扩展每个领域。
 
 Here are capability domains to consider when building platforms for cloud-native
 computing:
+以下是构建云原生计算平台时需要考虑的能力领域：
 
 1. **Web portals** for observing and provisioning products and capabilities
 1. **APIs** (and CLIs) for automatically provisioning products and capabilities
