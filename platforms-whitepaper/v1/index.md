@@ -1,8 +1,9 @@
 ---
-title:  "CNCF Platforms White Paper"
+title:  "CNCF平台白皮书"
 pdf: https://github.com/cncf/tag-app-delivery/raw/main/platforms-whitepaper/v1/assets/platforms-def-v1.0.pdf
 version_info: https://github.com/cncf/tag-app-delivery/tree/main/platforms-whitepaper/README.md
-description: "This paper intends to support enterprise leaders, enterprise architects and platform team leaders to advocate for, investigate and plan internal platforms for cloud computing. We believe platforms significantly impact enterprises' actual value streams, but only indirectly, so leadership consensus and support is vital to the long-term sustainability and success of platform teams. In this paper we'll enable that support by discussing what the value of platforms is, how to measure it, and how to implement platform teams that maximize it."
+description: "This paper intends to support enterprise leaders, enterprise architects and platform team leaders to advocate for, investigate and plan internal platforms for cloud computing. We believe platforms significantly impact enterprises' actual value streams, but only indirectly, so leadership consensus and support is vital to the long-term sustainability and success of platform teams. In this paper we'll enable that support by discussing what the value of platforms is, how to measure it, and how to implement platform teams that maximize it.
+本文旨在支持企业领袖、企业架构师和平台团队领导者倡导、调查和规划云计算内部平台。我们认为平台对企业的实际价值流有重大影响，但只是间接的，因此领导层的共识和支持对平台团队的长期可持续性和成功至关重要。在本文中，我们将通过讨论平台的价值、如何衡量它以及如何实施最大化平台价值的平台团队来实现这种支持。"
 ---
 
 ## Introduction
